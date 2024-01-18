@@ -1,0 +1,106 @@
+@charset "UTF-8";
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #181818;
+  display: flex;
+  height: 80px;
+  align-items: center;
+}
+
+.logo h1 {
+  color: white;
+  font-weight: 400;
+  font-size: 32px;
+  font-family: "Inter", sans-serif;
+}
+
+.nav-menu {
+  width: 1800px;
+  margin: 0 auto;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  align-items: center;
+}
+
+.menu-l {
+  display: flex;
+  color: white;
+}
+.menu-l li {
+  color: white;
+  margin-left: 25px;
+  font-weight: 500;
+  font-size: 15px;
+  font-family: "PP Pangram Sans", sans-serif;
+}
+
+.knop {
+  border-radius: 8px;
+  padding: 13px 20px;
+  color: white;
+  background-color: black;
+  border-color: white;
+  font-size: 13px;
+  font-weight: 700;
+  font-family: "PP Pangram Sans", sans-serif;
+}
+
+.tel {
+  color: white;
+  font-weight: 700;
+  font-size: 18px;
+  font-family: "Unbounded", sans-serif;
+}
+
+.prof {
+  display: flex;
+}
+
+.prof img {
+  margin-left: 10px;
+}
+
+.soc {
+  display: flex;
+}
+.soc img {
+  margin-left: 15px;
+}
+
+.sect1 {
+  background-image: url(img/бг.png);
+}
+
+ul {
+  list-style: none;
+}
+
+.sect8 b {
+  display: block;
+  padding-left: 20px;
+}
+.sect8 p {
+  margin-bottom: -10px;
+}
+.sect8 ul {
+  -moz-column-count: 2;
+       column-count: 2;
+  -moz-column-gap: 20px;
+       column-gap: 20px;
+  width: 100%;
+}
+.sect8 li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  width: 320px;
+}/*# sourceMappingURL=style.css.map */
