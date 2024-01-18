@@ -1,5 +1,5 @@
 @charset "UTF-8";
-body {
+* {
   margin: 0;
   padding: 0;
 }
@@ -76,7 +76,62 @@ header {
 }
 
 .sect1 {
+  color: white;
   background-image: url(img/бг.png);
+  background-size: cover;
+  width: 1860px;
+  height: 966px;
+  margin-left: 20px;
+}
+.sect1 hr {
+  width: 80%;
+  margin-left: 10%;
+  color: #FFFFFF;
+  margin-top: 80px;
+}
+.sect1 .sect1-text {
+  display: block;
+  text-align: center;
+  justify-content: center;
+  padding-top: 90px;
+  padding-bottom: 60px;
+}
+.sect1 .sect1-text h1 {
+  text-transform: uppercase;
+  font-size: 89px;
+  font-family: "Unbounded";
+}
+.sect1 .sect1-text p {
+  padding-top: 30px;
+  font-size: 24px;
+  font-family: "PP Pangram Sans";
+}
+.sect1 .spis1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 60px;
+}
+.sect1 .spis1 li {
+  padding-left: 70px;
+  display: flex;
+}
+.sect1 .spis1 li h3 {
+  display: flex;
+  color: black;
+  background-color: white;
+  width: 26px;
+  height: 26px;
+  border-radius: 100px;
+  font-size: 16px;
+  justify-content: center;
+  align-items: center;
+}
+.sect1 .spis1 li p {
+  padding-left: 20px;
+  font-size: 17px;
+  font-family: "PP Pangram Sans";
+  font-weight: 300;
 }
 
 ul {
