@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: #746f6f;
+  background-color: #F4F4F4;
 }
 
 header {
@@ -140,19 +140,15 @@ header {
   font-weight: 300;
 }
 
-input[type=checkbox] {
-  display: none;
-}
-
 .dop-sect1 {
   position: absolute;
   z-index: 1;
   background-color: white;
-  left: 10%;
+  left: 14%;
   width: 1320px;
   height: 271px;
   border-radius: 20px;
-  bottom: -15%;
+  bottom: -25%;
 }
 .dop-sect1 .form-but {
   width: 201px;
@@ -178,8 +174,8 @@ input[type=checkbox] {
   font-family: "PP Pangram Sans";
 }
 .dop-sect1 h2 {
-  padding-top: 30px;
-  padding-left: 30px;
+  padding-top: 50px;
+  padding-left: 50px;
   font-family: "Unbounded";
   font-size: 22px;
 }
