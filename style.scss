@@ -1,9 +1,10 @@
 *{
     margin: 0;
     padding: 0;
+    
 }
 body{
-    background-color:   #F4F4F4;
+    background-color: #746f6f;
 }
 
 
@@ -146,12 +147,83 @@ header{
     }
 }
 
+input[type= 'checkbox']{
+    display: none;
+}
+
 .dop-sect1{
     position: absolute;
     z-index: 1;
     background-color: white;
-    left: 30%;
+    left: 10%;
+    width: 1320px;
+    height: 271px;
+    border-radius: 20px;
+    bottom: -15%;
 
+    
+
+    .form-but{
+        width: 201px;
+        height: 76px;
+        color: white;
+        border-radius: 10px;
+        border: solid 0px ;
+        font-family: 'PP Pangram Sans';
+        font-size: 16px;
+        background: linear-gradient(to top right,#9F7437, #E3D293,);
+    }
+    .text-for{
+        padding-left: 70px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        justify-content: center;
+        align-items: end;
+        width: 380px;
+        height: 54px;
+        p{
+            font-size: 14px;
+            font-family: 'PP Pangram Sans';
+        }
+    }
+
+    h2{
+        padding-top: 30px;
+        padding-left: 30px;
+        font-family: 'Unbounded';
+        font-size: 22px;
+    }
+
+    .forma{
+        display: flex;
+        padding-top: 30px;
+        padding-left: 20px;
+    }
+
+    .p{
+        display: grid;
+        width: 130px;
+        .gal{
+            margin-right: 15px;
+        }
+        justify-content: center;
+        align-items: end;
+        height: 54px;        
+    }
+
+    .form{
+        text-align: center;
+        width: 242px;
+        height: 76px;
+        margin-left: 20px;
+        border-radius: 10px;
+        background-color: #F5F5F5;
+        border: solid 1px #F5F5F5;
+        font-family: 'PP Pangram Sans';
+        color: #A4A4A4;
+
+    }
+    
 
 
 }
