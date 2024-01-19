@@ -210,6 +210,76 @@ ul {
   list-style: none;
 }
 
+.sect2 {
+  margin-top: 12%;
+}
+.sect2 .sect2-he {
+  display: flex;
+  flex-direction: row;
+  margin-left: 90px;
+}
+.sect2 .sect2-he h1 {
+  color: #1F1F1F;
+  font-family: "Unbounded";
+  font-size: 48px;
+}
+.sect2 .sect2-he button {
+  margin-left: 30px;
+  margin-top: 15px;
+  height: 44px;
+  width: 124px;
+  background-color: #FFFFFF;
+  border-radius: 8px;
+  border: solid 4px #1F1F1F;
+}
+.sect2 .car {
+  display: flex;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  flex-direction: row;
+  font-family: "PP Pangram Sans";
+  margin-left: 50px;
+}
+.sect2 .car img {
+  margin-right: 15px;
+}
+.sect2 .car li {
+  margin-left: 50px;
+}
+.sect2 .car .black {
+  display: flex;
+  background-color: #1F1F1F;
+  width: 217px;
+  height: 74px;
+  color: #FFFFFF;
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+}
+.sect2 .car .white {
+  display: flex;
+  background-color: #FFFFFF;
+  width: 217px;
+  height: 74px;
+  color: #1F1F1F;
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+}
+.sect2 .car .gray {
+  display: flex;
+  background-color: #EAEAEA;
+  width: 217px;
+  height: 74px;
+  color: #1F1F1F;
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+}
+
 .sect8 b {
   display: block;
   padding-left: 20px;
