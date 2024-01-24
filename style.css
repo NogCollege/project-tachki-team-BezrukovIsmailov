@@ -221,7 +221,7 @@ ul {
 .sect2 .sect2-he {
   display: flex;
   flex-direction: row;
-  margin-left: 260px;
+  margin-left: 280px;
 }
 .sect2 .sect2-he h1 {
   color: #1F1F1F;
@@ -243,7 +243,6 @@ ul {
   padding-bottom: 30px;
   flex-direction: row;
   font-family: "PP Pangram Sans";
-  margin-left: 50px;
 }
 .sect2 .car img {
   margin-right: 15px;
@@ -316,6 +315,10 @@ ul {
   flex-direction: row;
   padding-top: 15px;
   padding-left: 40px;
+}
+.sect2 .katal li .text-s2 img {
+  width: 25px;
+  height: 18px;
 }
 .sect2 .katal li .text-s2 p {
   font-size: 13px;

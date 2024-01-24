@@ -246,7 +246,7 @@ ul{
     .sect2-he{
         display: flex;
         flex-direction: row;
-        margin-left: 260px;
+        margin-left: 280px;
         h1{
             color: #1F1F1F;
             font-family: 'Unbounded';
@@ -270,7 +270,7 @@ ul{
         padding-bottom: 30px;
         flex-direction: row;
         font-family: 'PP Pangram Sans';
-        margin-left: 50px;
+        
 
         img{
             margin-right: 15px;
@@ -356,6 +356,12 @@ ul{
                 flex-direction: row;
                 padding-top: 15px;
                 padding-left: 40px;
+
+                img{
+                    width: 25px;
+                    height: 18px;
+                }
+
                 p{
                     font-size: 13px;
                     font-family: 'PP Pangram Sans';
