@@ -22,6 +22,14 @@ header{
     font-family: 'Inter', sans-serif;
 }
 
+
+.container{
+    width: 1320px;
+    margin: 0 auto;
+    
+
+}
+
 .nav-menu{
     width: 1800px;
     margin: 0 auto;
@@ -151,7 +159,7 @@ header{
     position: absolute;
     z-index: 1;
     background-color: white;
-    left: 14%;
+    left: 17%;
     width: 1320px;
     height: 271px;
     border-radius: 20px;
@@ -223,6 +231,8 @@ header{
 
 
 }
+
+
 
 
 ul{
@@ -308,7 +318,86 @@ ul{
             align-items: center;
             font-size: 14px;
         }
+
     }
+
+    .katal{
+        display: flex;
+        flex-direction: row;
+        column-count: 2;
+
+
+        li{
+            display: flex;
+            width: 424px;
+            height: 483px;
+            background-color: #FFFFFF;
+            flex-direction: column;
+            justify-content: center;
+            
+            margin-top: 30px;
+            margin-left: 30px;
+            
+
+            img{
+                width: 286px;
+                height: 153px;
+                
+            }
+
+            h4{
+                font-size:  20px;
+                font-family: 'PP Pangram Sans';
+                padding-top: 20px;
+            }
+            .text-s2{
+                display: flex;
+                flex-direction: row;
+                padding-top: 15px;
+                p{
+                    font-size: 13px;
+                    font-family: 'PP Pangram Sans';
+                    color: #707070;
+                }
+                .pa{
+                    padding-left: 10px;
+                }
+            }
+
+            .cen{
+                display: flex;
+                flex-direction: row;
+                padding-top: 15px;
+                
+                button{
+                    width: 135px;
+                    height: 40px;
+                    color: white;
+                    border-radius: 6px;
+                    border: solid 0px ;
+                    font-family: 'PP Pangram Sans';
+                    font-size: 12px;
+                    background: linear-gradient(to top right,#9F7437, #E3D293,);
+                }
+
+                span{
+                    font-size: 20px;
+                    color: black;
+                }
+
+                p{
+                    font-size: 13px;
+                    font-family: 'PP Pangram Sans';
+                    color: #707070;
+                    padding-left: 10px;
+
+                }
+            }
+
+
+        }
+    }
+    
 }
 
 .sect8{

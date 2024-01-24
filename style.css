@@ -22,6 +22,11 @@ header {
   font-family: "Inter", sans-serif;
 }
 
+.container {
+  width: 1320px;
+  margin: 0 auto;
+}
+
 .nav-menu {
   width: 1800px;
   margin: 0 auto;
@@ -144,7 +149,7 @@ header {
   position: absolute;
   z-index: 1;
   background-color: white;
-  left: 14%;
+  left: 17%;
   width: 1320px;
   height: 271px;
   border-radius: 20px;
@@ -278,6 +283,69 @@ ul {
   justify-content: center;
   align-items: center;
   font-size: 14px;
+}
+.sect2 .katal {
+  display: flex;
+  flex-direction: row;
+  -moz-column-count: 2;
+       column-count: 2;
+}
+.sect2 .katal li {
+  display: flex;
+  width: 424px;
+  height: 483px;
+  background-color: #FFFFFF;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 30px;
+  margin-left: 30px;
+}
+.sect2 .katal li img {
+  width: 286px;
+  height: 153px;
+}
+.sect2 .katal li h4 {
+  font-size: 20px;
+  font-family: "PP Pangram Sans";
+  padding-top: 20px;
+}
+.sect2 .katal li .text-s2 {
+  display: flex;
+  flex-direction: row;
+  padding-top: 15px;
+}
+.sect2 .katal li .text-s2 p {
+  font-size: 13px;
+  font-family: "PP Pangram Sans";
+  color: #707070;
+}
+.sect2 .katal li .text-s2 .pa {
+  padding-left: 10px;
+}
+.sect2 .katal li .cen {
+  display: flex;
+  flex-direction: row;
+  padding-top: 15px;
+}
+.sect2 .katal li .cen button {
+  width: 135px;
+  height: 40px;
+  color: white;
+  border-radius: 6px;
+  border: solid 0px;
+  font-family: "PP Pangram Sans";
+  font-size: 12px;
+  background: linear-gradient(to top right, #9F7437, #E3D293);
+}
+.sect2 .katal li .cen span {
+  font-size: 20px;
+  color: black;
+}
+.sect2 .katal li .cen p {
+  font-size: 13px;
+  font-family: "PP Pangram Sans";
+  color: #707070;
+  padding-left: 10px;
 }
 
 .sect8 b {
