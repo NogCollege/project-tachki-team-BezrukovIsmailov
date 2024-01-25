@@ -698,8 +698,47 @@ ul{
     }   
 }
 
+.sect7{
+    padding-top: 90px;
+
+    h1{
+        font-size: 48px;
+        font-family: 'Unbounded';
+        color: #1F1F1F;
+    }
+
+    .s7{
+        padding-top: 60px;
+        display: flex;
+        justify-content: space-around;
+        img{
+            width: 424px;
+            height: 540px;
+        }
+
+        p{
+            padding-top: 30px;
+            color: #1F1F1F;
+            font-family: 'PP Pangram Sans';
+            font-size: 20px;
+            font-weight: 800;
+            width: 262px;
+        }
+    }
+}
+
+
+
 
 .sect8{
+    padding-top: 90px;
+
+    h1{
+        color: #1F1F1F;
+        font-size: 48px;
+        font-family: 'Unbounded';
+    }
+
     b{
         display: block;
         padding-left: 20px;
@@ -717,7 +756,7 @@ ul{
 
     li{
         display: flex;
-        justify-content: center;
+        justify-content: space-around;
         align-items: center;
         list-style: none;
         width: 320px;
@@ -725,5 +764,88 @@ ul{
 }
 
 
+
+
+.sect9{
+    margin-top: 90px;
+    background-image: url(img/bg\ \(8\).png);
+    height: 1459px;
+    background-repeat: no-repeat;
+    color: #F4F4F4;
+
+    h1{
+        padding-top: 90px;
+        font-size: 48px;
+        font-family: 'Unbounded';
+        width: 628px;
+    } 
+
+    .s9-2{
+        display: flex;
+        justify-content: space-around;
+        
+        .s9_2{
+            padding-left: 40px;
+            .i{
+                width: 448px;
+                height: 529px;
+            }
+            .da{
+                color: #9F9F9F;
+                span{
+                    color: white;
+                }
+            }
+
+            p{
+                font-family: 'PP Pangram Sans';
+                padding-top: 40px;
+                color: #989898;
+            }
+            hr{
+               margin-top: 30px;
+            }
+
+            .sp{
+                display: flex;
+                li{
+                    display: flex;
+                }
+            }
+        }
+    }
+
+
+    .s9{
+        padding-top: 60px;
+        display: flex;
+        justify-content: space-around;
+
+        .text-s9{
+            font-size: 28px;
+            font-family: 'PP Pangram Sans';
+            width: 648px;
+           
+
+            img{
+                width: 560px;
+                height: 580px;
+            }
+            p{
+                padding-top: 40px;
+                height: 190px;
+            }
+            
+            .dop{
+                padding-top: 30px;
+                font-size: 18px;
+                font-family: 'PP Pangram Sans';
+                color: #9F9F9F;
+                height: 180px;
+            }
+        }
+    }
+
+}
 
 

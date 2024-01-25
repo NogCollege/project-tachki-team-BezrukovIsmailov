@@ -609,6 +609,40 @@ ul {
   padding-top: 15px;
 }
 
+.sect7 {
+  padding-top: 90px;
+}
+.sect7 h1 {
+  font-size: 48px;
+  font-family: "Unbounded";
+  color: #1F1F1F;
+}
+.sect7 .s7 {
+  padding-top: 60px;
+  display: flex;
+  justify-content: space-around;
+}
+.sect7 .s7 img {
+  width: 424px;
+  height: 540px;
+}
+.sect7 .s7 p {
+  padding-top: 30px;
+  color: #1F1F1F;
+  font-family: "PP Pangram Sans";
+  font-size: 20px;
+  font-weight: 800;
+  width: 262px;
+}
+
+.sect8 {
+  padding-top: 90px;
+}
+.sect8 h1 {
+  color: #1F1F1F;
+  font-size: 48px;
+  font-family: "Unbounded";
+}
 .sect8 b {
   display: block;
   padding-left: 20px;
@@ -625,8 +659,78 @@ ul {
 }
 .sect8 li {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   list-style: none;
   width: 320px;
+}
+
+.sect9 {
+  margin-top: 90px;
+  background-image: url(img/bg\ \(8\).png);
+  height: 1459px;
+  background-repeat: no-repeat;
+  color: #F4F4F4;
+}
+.sect9 h1 {
+  padding-top: 90px;
+  font-size: 48px;
+  font-family: "Unbounded";
+  width: 628px;
+}
+.sect9 .s9-2 {
+  display: flex;
+  justify-content: space-around;
+}
+.sect9 .s9-2 .s9_2 {
+  padding-left: 40px;
+}
+.sect9 .s9-2 .s9_2 .i {
+  width: 448px;
+  height: 529px;
+}
+.sect9 .s9-2 .s9_2 .da {
+  color: #9F9F9F;
+}
+.sect9 .s9-2 .s9_2 .da span {
+  color: white;
+}
+.sect9 .s9-2 .s9_2 p {
+  font-family: "PP Pangram Sans";
+  padding-top: 40px;
+  color: #989898;
+}
+.sect9 .s9-2 .s9_2 hr {
+  margin-top: 30px;
+}
+.sect9 .s9-2 .s9_2 .sp {
+  display: flex;
+}
+.sect9 .s9-2 .s9_2 .sp li {
+  display: flex;
+}
+.sect9 .s9 {
+  padding-top: 60px;
+  display: flex;
+  justify-content: space-around;
+}
+.sect9 .s9 .text-s9 {
+  font-size: 28px;
+  font-family: "PP Pangram Sans";
+  width: 648px;
+}
+.sect9 .s9 .text-s9 img {
+  width: 560px;
+  height: 580px;
+}
+.sect9 .s9 .text-s9 p {
+  padding-top: 40px;
+  height: 190px;
+}
+.sect9 .s9 .text-s9 .dop {
+  padding-top: 30px;
+  font-size: 18px;
+  font-family: "PP Pangram Sans";
+  color: #9F9F9F;
+  height: 180px;
 }/*# sourceMappingURL=style.css.map */
