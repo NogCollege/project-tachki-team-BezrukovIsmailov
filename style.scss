@@ -545,6 +545,8 @@ ul{
                 font-family: 'PP Pangram Sans';
                 font-size: 20px;
                 color: #1F1F1F;
+                padding-top: 30px;
+                padding-left: 30px;
             }
 
             p{
@@ -552,6 +554,8 @@ ul{
                 font-family: 'PP Pangram Sans';
                 font-size: 16px;
                 width: 402px;
+                padding-top: 30px;
+                padding-left: 30px;
             }
         }
 
@@ -560,8 +564,138 @@ ul{
             width: 648px;
             height: 584px;
             border-radius: 20px;
+            
+            h3{
+                font-family: 'PP Pangram Sans';
+                font-size: 20px;
+                color: #1F1F1F;
+                padding-top: 30px;
+                padding-left: 30px;
+            }
+
+            p{
+                color: #989898;
+                font-family: 'PP Pangram Sans';
+                font-size: 16px;
+                width: 402px;
+                padding-top: 30px;
+                padding-left: 30px;
+            }
         }
     }
+}
+
+.sect5{
+    margin-top: 80px;
+
+    h1{
+        text-align: center;
+        font-size: 48px;
+        font-family: 'Unbounded';
+    }
+
+    .s5{
+        padding-top: 80px;
+        display: flex;
+        justify-content: space-around;
+
+        .s5-1{
+                background-color: #FFFFFF;
+                width: 424px;
+                height: 272px;
+                border-radius: 20px;
+                display: flex;
+                
+        }
+
+        .s5-ph{
+            padding-top: 60px;
+            padding-left: 30px;
+            width: 50px;
+            height: 50px;
+        }
+
+        .s5-th{
+            padding-left: 30px;
+            padding-top: 60px;
+            font-family: 'PP Pangram Sans';
+            h4{
+                color: #1F1F1F;
+                font-size: 20px;                
+            }
+
+            p{
+                padding-top: 40px;
+                width: 234px;
+                color: #989898;
+                font-size: 16px;
+            }
+
+            .bb{
+                color: black;
+            }
+        }
+    }
+}
+
+.sect6{
+    margin-top: 60px;
+    background-image: url(img/бг\ \(2\).png);
+    height: 820px;
+    background-repeat: no-repeat;
+    color: #F4F4F4;
+    h1{
+        padding-top: 120px;
+        font-family: 'Unbounded';
+        font-size: 48px;
+    }
+
+    .s6{
+        padding-top: 60px;
+        display: flex;
+        justify-content: space-around;
+        font-family: 'PP Pangram Sans';
+
+        .osna{
+            font-size: 28px;
+            width: 648px;
+            
+        }
+        .j{
+            padding-top: 60px;
+            font-size: 18px;
+            color: #A4A4A4;
+            width: 648px;
+        }
+
+        .s6-ph{
+            margin-left: 50px;
+            background-color: white;
+            width: 536px;
+            height: 448px;
+            border-radius: 20px;
+            
+            img{
+                width: 536px;
+                height: 274px;
+            }
+
+            .ab{
+                padding-top: 15px;
+                padding-left: 25px;
+                color: #1F1F1F;
+                font-size: 20px;
+            }
+
+            .ba{
+                color: #9F9F9F;
+                font-size: 16px;
+                padding-left: 25px;
+                padding-top: 15px;
+            }
+        }
+        
+    }   
 }
 
 
