@@ -666,6 +666,7 @@ ul {
 }
 
 .sect9 {
+  margin-left: 30px;
   margin-top: 90px;
   background-image: url(img/bg\ \(8\).png);
   height: 1459px;
@@ -702,9 +703,31 @@ ul {
 }
 .sect9 .s9-2 .s9_2 hr {
   margin-top: 30px;
+  width: 728px;
+  color: #707070;
 }
 .sect9 .s9-2 .s9_2 .sp {
   display: flex;
+  padding-top: 50px;
+}
+.sect9 .s9-2 .s9_2 .sp li {
+  padding-left: 20px;
+}
+.sect9 .s9-2 .s9_2 .sp .f1 {
+  width: 152px;
+}
+.sect9 .s9-2 .s9_2 .sp .f2 {
+  width: 180px;
+}
+.sect9 .s9-2 .s9_2 .sp .f3 {
+  width: 171px;
+}
+.sect9 .s9-2 .s9_2 .sp p {
+  padding-top: 0px;
+  padding-left: 15px;
+  font-size: 13px;
+  font-weight: 900;
+  color: #FFFFFF;
 }
 .sect9 .s9-2 .s9_2 .sp li {
   display: flex;
@@ -733,4 +756,18 @@ ul {
   font-family: "PP Pangram Sans";
   color: #9F9F9F;
   height: 180px;
+}
+
+.sect10 {
+  width: 1860px;
+  margin-left: 30px;
+  background-color: white;
+  border-radius: 10px;
+  height: 280px;
+}
+.sect10 .s10 {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 60px;
+  align-items: center;
 }/*# sourceMappingURL=style.css.map */
