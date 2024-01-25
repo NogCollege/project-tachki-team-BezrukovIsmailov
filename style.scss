@@ -441,20 +441,20 @@ ul{
 
 
 .sect3{
-    margin-top: 40px;
+    margin-top: 80px;
     background-image: url(img/бг\ \(1\).png);
     width: 100%;
     height: 764px;
     background-repeat: no-repeat;
     h1{
-        padding-top: 30px;
+        padding-top: 120px;
         font-size: 48px;
         color: #FFFFFF;
         font-family: 'Unbounded';
     }
 
     .text-s3{
-        padding-top: 40px;
+        padding-top: 80px;
         font-family: 'PP Pangram Sans';
         color: #A4A4A4;
         
@@ -468,6 +468,7 @@ ul{
         .ppp{
             width: 760px;
             height: 60px;
+            padding-top: 30px;
         }
     }
     
@@ -476,7 +477,89 @@ ul{
         justify-content: space-around;
         .form-s3{
             display: flex;
+            flex-direction: column;
+            justify-content: center;
+            font-family: 'PP Pangram Sans';
+            padding-left: 90px;
+            padding-top: 50px;
+            .in{
+                width: 424px;
+                height: 76px;
+                border-radius: 10px;
+                padding-left: 25px;
+                margin-top: 20px;
+            }
+            button{
+                width: 453px;
+                height: 80px;
+                border-radius: 10px;
+                margin-top: 20px;
+            }
+            .gr{
+                color: #B6B6B6;
+                font-size: 14px;
+                padding-left: 20px;
+            }
+            p{
+                color: #FFFFFF;
+                width: 424px;
+                
+                font-size: 14px;
+                padding-top: 40px;
+            }
+
+            .wh{
+                padding-left: 35px;
+            }
+
             
+        }
+    }
+}
+
+
+.sect4{
+    margin-top: 90px;
+    h1{
+        font-size: 48px;
+        font-family: 'Unbounded';
+        color: #1F1F1F;
+    }
+
+    .s4{
+        display: flex;
+        justify-content: space-around;
+        padding-top: 40px;
+        img{
+            width: 648px;
+            height: 390px;
+        }
+
+        .left-s4{
+            background-color: #FFFFFF;
+            width: 648px;
+            border-radius: 20px;
+            height: 584px;
+
+            h3{
+                font-family: 'PP Pangram Sans';
+                font-size: 20px;
+                color: #1F1F1F;
+            }
+
+            p{
+                color: #989898;
+                font-family: 'PP Pangram Sans';
+                font-size: 16px;
+                width: 402px;
+            }
+        }
+
+        .right-s4{
+            background-color: #FFFFFF;
+            width: 648px;
+            height: 584px;
+            border-radius: 20px;
         }
     }
 }
