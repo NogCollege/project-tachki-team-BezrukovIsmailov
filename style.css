@@ -268,6 +268,7 @@ ul {
   justify-content: center;
   align-items: center;
   font-size: 14px;
+  margin-left: 30px;
 }
 .sect2 .car .gray {
   display: flex;
@@ -279,6 +280,7 @@ ul {
   justify-content: center;
   align-items: center;
   font-size: 14px;
+  margin-left: 30px;
 }
 .sect2 .katal {
   display: flex;
@@ -316,6 +318,8 @@ ul {
 .sect2 .katal li .text-s2 img {
   width: 25px;
   height: 18px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 .sect2 .katal li .text-s2 p {
   font-size: 13px;
@@ -437,10 +441,19 @@ ul {
   border-radius: 10px;
   margin-top: 20px;
 }
-.sect3 .forma-texts3 .form-s3 .gr {
-  color: #B6B6B6;
+.sect3 .forma-texts3 .form-s3 .galo {
+  padding-top: 0px;
   font-size: 14px;
-  padding-left: 20px;
+  width: 321px;
+  padding-left: 10px;
+  color: #B6B6B6;
+}
+.sect3 .forma-texts3 .form-s3 .galo span {
+  color: #FFFFFF;
+}
+.sect3 .forma-texts3 .form-s3 .x {
+  padding-top: 30px;
+  display: flex;
 }
 .sect3 .forma-texts3 .form-s3 p {
   color: #FFFFFF;
@@ -770,4 +783,166 @@ ul {
   justify-content: space-between;
   padding-top: 60px;
   align-items: center;
+}
+
+.sect11 {
+  padding-top: 90px;
+}
+.sect11 .s11 {
+  display: flex;
+}
+.sect11 .s11 h1 {
+  padding-top: 15px;
+  font-family: "Unbounded";
+  font-size: 48px;
+  color: #1F1F1F;
+}
+.sect11 .s11 p {
+  padding-top: 50px;
+  font-family: "PP Pangram Sans";
+  font-size: 18px;
+  color: #9F9F9F;
+  width: 499px;
+}
+.sect11 .s11 b {
+  padding-top: 40px;
+  font-family: "Unbounded";
+  font-size: 20px;
+  color: #1F1F1F;
+  padding-bottom: 60px;
+}
+.sect11 .s11 .fo {
+  margin-top: 20px;
+  background-color: #FFFFFF;
+  width: 448px;
+  height: 76px;
+  border-radius: 10px;
+  border: solid 0px;
+  padding-left: 20px;
+}
+.sect11 .s11 button {
+  margin-top: 20px;
+  width: 468px;
+  height: 76px;
+  background-color: #1F1F1F;
+  border-radius: 10px;
+  color: #FFFFFF;
+}
+.sect11 .s11 .galo {
+  padding-top: 0px;
+  font-size: 14px;
+  width: 321px;
+  padding-left: 10px;
+}
+.sect11 .s11 .galo span {
+  color: #131313;
+}
+.sect11 .s11 .x {
+  padding-top: 30px;
+  display: flex;
+}
+.sect11 .s11 .s11-text {
+  display: flex;
+  flex-direction: column;
+  padding-left: 80px;
+}
+
+footer {
+  border-radius: 10px;
+  padding-top: 90px;
+  background-color: #1D1D1D;
+  height: 534px;
+  margin-left: 30px;
+}
+footer .fot {
+  padding-top: 100px;
+  display: flex;
+  justify-content: space-around;
+  color: #FFFFFF;
+}
+footer .fot .fot1 h1 {
+  font-family: "Inter";
+  font-size: 40px;
+}
+footer .fot .fot1 .nom {
+  padding-top: 70px;
+  display: flex;
+}
+footer .fot .fot1 .nom p {
+  font-size: 12px;
+  font-family: "PP Pangram Sans";
+  color: #AFAFAF;
+}
+footer .fot .fot1 .nom h3 {
+  font-size: 18px;
+  font-family: "Unbounded";
+}
+footer .fot .fot1 .nom button {
+  border-radius: 8px;
+  margin-left: 20px;
+  width: 149px;
+  height: 44px;
+  color: #FFFFFF;
+  background-color: #1D1D1D;
+  border: solid 3px #FFFFFF;
+}
+footer .fot .fot1 .adress {
+  position: relative;
+  font-family: "PP Pangram Sans";
+  font-size: 15px;
+  color: #AFAFAF;
+  padding-top: 30px;
+}
+footer .fot .fot1 .adress img {
+  padding-right: 8px;
+}
+footer .fot .fot1 .poch {
+  padding-top: 10px;
+  padding-left: 22vh;
+  font-family: "PP Pangram Sans";
+  font-size: 15px;
+  color: #FFFFFF;
+}
+footer .fot .fot1 .poch img {
+  padding-right: 8px;
+}
+footer .fot .fot1 .soceti {
+  padding-top: 30px;
+  padding-left: 27vh;
+}
+footer .fot .fot1 .soceti .p2 {
+  padding-left: 7px;
+}
+footer .fot .fot2 ul {
+  display: flex;
+}
+footer .fot .fot2 ul li h1 {
+  font-family: "PP Pangram Sans";
+  font-size: 15px;
+  color: #FFFFFF;
+  padding-bottom: 30px;
+}
+footer .fot .fot2 ul li p {
+  font-family: "PP Pangram Sans";
+  font-size: 16px;
+  color: #AFAFAF;
+  padding-top: 15px;
+}
+footer .fot .fot2 ul li p:hover {
+  color: #FFFFFF;
+}
+footer .fot .fot2 ul .g2 {
+  padding-left: 50px;
+}
+footer .fot hr {
+  margin-top: 60px;
+  width: 568px;
+}
+footer .fot .kchay {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 60px;
+  font-family: "PP Pangram Sans";
+  font-size: 13px;
+  color: #7E7E7E;
 }/*# sourceMappingURL=style.css.map */
