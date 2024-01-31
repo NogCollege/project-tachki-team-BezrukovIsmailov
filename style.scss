@@ -110,7 +110,7 @@ header{
         padding-top: 90px;
         padding-bottom: 60px;
         h1{
-            text-transform: uppercase;
+
             font-size: 89px;
             font-family: 'Unbounded'
         }
@@ -764,6 +764,7 @@ ul{
     }
 
     ul{
+        padding-top: 30px;
         column-count: 2;
         column-gap: 20px;
         width: 100%;
@@ -1105,4 +1106,119 @@ footer{
             color: #7E7E7E;
         }
     }
+}
+
+
+@media (min-width: 320px) and (max-width: 320px){
+
+    .sect1{
+        background-image: url(img/бг\ \(3\).png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 320px;
+        height: 572px;
+        margin-left: 0px;
+        .sect1-text{
+            display: block;
+            text-align:start;
+            justify-content:start;
+            padding-top: 20px;
+            padding-bottom: 0px;
+            
+            h1{
+                width: 280px;
+                font-size: 32px;
+
+                
+            }
+
+            p{
+                font-size: 16px;
+                width: 248px;
+                height: 48px;
+            }
+        }
+
+        hr{
+            margin-top: 35px;
+            margin-left: 10px;
+            width: 80%;
+        }
+
+
+
+        .spis1{
+            display: block;
+            padding-top: 25px;
+            
+
+            li{
+                padding-left: 0px;
+                padding-top: 20px;
+
+                .k{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+
+                h3{
+                    
+                    font-size: 10px;
+                    width: 26px;
+                    height: 26px;
+                }
+
+                p{
+                    font-weight: 500;
+                    font-size: 15px;
+                    height: 44px;
+                }
+            }
+        }
+    }
+
+    .container{
+        width: 290px;
+        margin: 0 auto;
+    }
+
+    .sect1{
+        width: 320px;
+    }
+
+    .nav-menu{
+        width: 320px;
+        margin: 0 auto;
+    }
+    
+     .menu{
+        .menu-l li{
+            display: none;
+        }
+        h1{
+            font-family: 'Inter';
+            font-size: 20px;
+            width: 98px;
+            height: 48px;
+        }
+
+        .knop{
+            display: none;
+        }
+
+        .tel{
+            display: none;
+        }
+
+        .soc{
+            display: none;
+        }
+     }
+
+
+     .dop-sect1{
+        position: relative;
+     }
+
 }

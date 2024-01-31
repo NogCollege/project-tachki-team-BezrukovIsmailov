@@ -106,7 +106,6 @@ header {
   padding-bottom: 60px;
 }
 .sect1 .sect1-text h1 {
-  text-transform: uppercase;
   font-size: 89px;
   font-family: "Unbounded";
 }
@@ -664,6 +663,7 @@ ul {
   margin-bottom: -10px;
 }
 .sect8 ul {
+  padding-top: 30px;
   -moz-column-count: 2;
        column-count: 2;
   -moz-column-gap: 20px;
@@ -945,4 +945,91 @@ footer .fot .kchay {
   font-family: "PP Pangram Sans";
   font-size: 13px;
   color: #7E7E7E;
+}
+
+@media (min-width: 320px) and (max-width: 320px) {
+  .sect1 {
+    background-image: url(img/бг\ \(3\).png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 320px;
+    height: 572px;
+    margin-left: 0px;
+  }
+  .sect1 .sect1-text {
+    display: block;
+    text-align: start;
+    justify-content: start;
+    padding-top: 20px;
+    padding-bottom: 0px;
+  }
+  .sect1 .sect1-text h1 {
+    width: 280px;
+    font-size: 32px;
+  }
+  .sect1 .sect1-text p {
+    font-size: 16px;
+    width: 248px;
+    height: 48px;
+  }
+  .sect1 hr {
+    margin-top: 35px;
+    margin-left: 10px;
+    width: 80%;
+  }
+  .sect1 .spis1 {
+    display: block;
+    padding-top: 25px;
+  }
+  .sect1 .spis1 li {
+    padding-left: 0px;
+    padding-top: 20px;
+  }
+  .sect1 .spis1 li .k {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .sect1 .spis1 li h3 {
+    font-size: 10px;
+    width: 26px;
+    height: 26px;
+  }
+  .sect1 .spis1 li p {
+    font-weight: 500;
+    font-size: 15px;
+    height: 44px;
+  }
+  .container {
+    width: 290px;
+    margin: 0 auto;
+  }
+  .sect1 {
+    width: 320px;
+  }
+  .nav-menu {
+    width: 320px;
+    margin: 0 auto;
+  }
+  .menu .menu-l li {
+    display: none;
+  }
+  .menu h1 {
+    font-family: "Inter";
+    font-size: 20px;
+    width: 98px;
+    height: 48px;
+  }
+  .menu .knop {
+    display: none;
+  }
+  .menu .tel {
+    display: none;
+  }
+  .menu .soc {
+    display: none;
+  }
+  .dop-sect1 {
+    position: relative;
+  }
 }/*# sourceMappingURL=style.css.map */
