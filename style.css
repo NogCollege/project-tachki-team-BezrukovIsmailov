@@ -1030,6 +1030,39 @@ footer .fot .kchay {
     display: none;
   }
   .dop-sect1 {
+    display: block;
     position: relative;
+    left: 0px;
+    width: 320px;
+    height: 545px;
+    border-radius: 0px;
+  }
+  .dop-sect1 h2 {
+    font-size: 18px;
+    width: 272px;
+    height: 27px;
+    padding-top: 30px;
+  }
+  .dop-sect1 .forma {
+    padding-top: 20px;
+    display: block;
+  }
+  .dop-sect1 .forma .form {
+    margin-top: 20px;
+  }
+  .dop-sect1 .form-but {
+    margin-top: 70px;
+    margin-left: 20px;
+    width: 280px;
+  }
+  .dop-sect1 .text-for {
+    display: grid;
+    padding-left: 25px;
+    width: 257px;
+    padding-top: 20px;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .dop-sect1 .text-for p {
+    padding-top: 15px;
   }
 }/*# sourceMappingURL=style.css.map */
