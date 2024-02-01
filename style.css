@@ -369,6 +369,7 @@ ul {
 
 .te {
   font-family: "PP Pangram Sans";
+  padding-top: 90px;
 }
 .te h4 {
   font-size: 28px;
@@ -434,11 +435,22 @@ ul {
   padding-left: 25px;
   margin-top: 20px;
 }
+.sect3 .forma-texts3 .form-s3 .in::-moz-placeholder {
+  padding-left: 20px;
+}
+.sect3 .forma-texts3 .form-s3 .in::placeholder {
+  padding-left: 20px;
+}
 .sect3 .forma-texts3 .form-s3 button {
   width: 453px;
   height: 80px;
   border-radius: 10px;
   margin-top: 20px;
+  background-color: transparent;
+  color: #FFFFFF;
+  border: solid 1px #FFFFFF;
+  font-family: "PP Pangram Sans";
+  font-size: 16px;
 }
 .sect3 .forma-texts3 .form-s3 .galo {
   padding-top: 0px;
@@ -1161,7 +1173,7 @@ footer .fot .kchay {
   }
   .sect2 .katal li h4 {
     padding-top: 25px;
-    width: 146px;
+    width: 148px;
     height: 20px;
     font-size: 16px;
   }
@@ -1173,16 +1185,114 @@ footer .fot .kchay {
     display: none;
   }
   .te {
-    margin-top: 90px;
+    padding-top: 120px;
   }
   .te h4 {
     width: 280px;
     height: 198px;
     font-size: 18px;
+    margin-left: 0px;
   }
   .te p {
+    margin-left: 0px;
     width: 280px;
     height: 120px;
+    font-size: 14px;
+  }
+  .sect3 {
+    background-image: url(img/mb.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 924px;
+  }
+  .sect3 h1 {
+    width: 208px;
+    height: 54px;
+    font-size: 18px;
+    padding-top: 40px;
+    margin-left: 15px;
+  }
+  .sect3 .forma-texts3 {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .sect3 .forma-texts3 .text-s3 {
+    width: 280px;
+    height: 426px;
+    padding-top: 20px;
+  }
+  .sect3 .forma-texts3 .osn {
+    font-size: 18px;
+    width: 280px;
+    height: 286px;
+  }
+  .sect3 .forma-texts3 .ppp {
+    width: 280px;
+    height: 120px;
+    font-size: 14px;
+  }
+  .sect3 .forma-texts3 .form-s3 {
+    padding-left: 0px;
+    padding-top: 10px;
+  }
+  .sect3 .forma-texts3 .form-s3 .in {
+    width: 280px;
+    height: 76px;
+    padding-left: 0px;
+  }
+  .sect3 .forma-texts3 .form-s3 button {
+    width: 280px;
+    height: 76px;
+  }
+  .sect3 .forma-texts3 .form-s3 .galo {
+    font-size: 13px;
+    width: 246px;
+    height: 54px;
+  }
+  .sect4 h1 {
+    margin-left: 15px;
+    font-size: 18px;
+    width: 250px;
+  }
+  .sect4 .s4 {
+    display: flex;
+    flex-direction: column;
+  }
+  .sect4 .s4 .left-s4 {
+    width: 280px;
+    height: 418px;
+  }
+  .sect4 .s4 .left-s4 h3 {
+    font-size: 16px;
+    width: 194px;
+    height: 20px;
+  }
+  .sect4 .s4 .left-s4 p {
+    font-size: 14px;
+    width: 200px;
+    height: 60px;
+  }
+  .sect4 .s4 .left-s4 img {
+    width: 280px;
+    height: 190px;
+  }
+  .sect4 .s4 .right-s4 {
+    margin-top: 30px;
+    width: 280px;
+    height: 438px;
+  }
+  .sect4 .s4 .right-s4 img {
+    width: 280px;
+    height: 190px;
+  }
+  .sect4 .s4 .right-s4 h3 {
+    width: 200px;
+    height: 40px;
+    font-size: 16px;
+  }
+  .sect4 .s4 .right-s4 p {
+    width: 220px;
+    height: 60px;
     font-size: 14px;
   }
 }/*# sourceMappingURL=style.css.map */

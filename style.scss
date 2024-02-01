@@ -425,7 +425,7 @@ ul{
 
 .te{
     font-family: 'PP Pangram Sans';
-    
+    padding-top: 90px;
     h4{
         font-size: 28px;
         color: #1F1F1F;
@@ -493,11 +493,22 @@ ul{
                 padding-left: 25px;
                 margin-top: 20px;
             }
+
+            .in::placeholder{
+                padding-left: 20px;
+            }
+
+
             button{
                 width: 453px;
                 height: 80px;
                 border-radius: 10px;
                 margin-top: 20px;
+                background-color: transparent;
+                color: #FFFFFF;
+                border: solid 1px #FFFFFF;
+                font-family: 'PP Pangram Sans';
+                font-size: 16px;
             }
 
             .galo{
@@ -1369,9 +1380,11 @@ footer{
                     padding-left: 35px;
                 }
 
+
+
                 h4{
                     padding-top: 25px;
-                    width: 146px;
+                    width: 148px;
                     height: 20px;
                     font-size: 16px;
                 }
@@ -1390,17 +1403,143 @@ footer{
      }
 
      .te{
-        margin-top: 90px;
+        padding-top: 120px;
         h4{
             width: 280px;
             height: 198px;
             font-size: 18px;
+            margin-left: 0px ;
         }
 
         p{
+            margin-left: 0px;
             width: 280px;
             height: 120px;
             font-size: 14px;
         }
+     }
+
+
+
+     .sect3{
+        background-image: url(img/mb.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 924px;
+
+        h1{
+            width: 208px;
+            height: 54px;
+            font-size: 18px;
+            padding-top: 40px;
+            margin-left: 15px;
+        }
+
+        .forma-texts3{
+            display: flex;
+            flex-direction: column-reverse;
+            
+            .text-s3{
+                width: 280px;
+                height: 426px;
+                padding-top: 20px;
+            }
+
+            .osn{
+                font-size: 18px;
+                width: 280px;
+                height: 286px;
+            }
+
+            .ppp{
+                width: 280px;
+                height: 120px;
+                font-size: 14px;
+            }
+
+            .form-s3 {
+                padding-left: 0px;
+                padding-top: 10px;
+    
+                .in{
+                    width: 280px;
+                    height: 76px;
+                    padding-left: 0px;
+                }
+                
+                button{
+                    width: 280px;
+                    height: 76px;
+                    
+                }
+
+                .galo{
+                    font-size: 13px;
+                    width: 246px;
+                    height: 54px;
+                }
+            }
+        }
+     }
+
+     .sect4{
+        h1{
+            margin-left: 15px;
+            font-size: 18px;
+            width: 250px;
+        }
+
+        .s4{
+            display: flex;
+            flex-direction: column;
+
+            
+            .left-s4{
+                width: 280px;
+                height: 418px;
+
+                h3{
+                    font-size: 16px;
+                    width: 194px;
+                    height: 20px;
+                }
+
+                p{
+                    font-size: 14px;
+                    width: 200px;
+                    height: 60px;
+                }
+
+                img{
+                    width: 280px;
+                    height: 190px;
+                }
+            }
+
+            .right-s4{
+                margin-top: 30px;
+                width: 280px;
+                height: 438px;
+
+                img{
+                    width: 280px;
+                    height: 190px;
+                }
+
+                h3{
+                    width: 200px;
+                    height: 40px;
+                    font-size: 16px;
+                }
+
+                p{
+                    width: 220px;
+                    height: 60px;
+                    font-size: 14px;
+                }
+
+            }
+        }
+
      }
 }
