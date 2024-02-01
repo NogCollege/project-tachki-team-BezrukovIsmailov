@@ -260,7 +260,7 @@ ul{
             width: 124px;
             background-color: #FFFFFF;
             border-radius: 8px;
-            border: solid 4px #1F1F1F;
+            border: solid 2px #1F1F1F;
         }
     }
 
@@ -1230,19 +1230,22 @@ footer{
             width: 272px;
             height: 27px;
             padding-top: 30px;
+            padding-left: 0px;
         }
 
         .forma{
             padding-top: 20px;
             display: block;
+            padding-left: 0px;
             .form{
                 margin-top: 20px;
+                margin-left: 0px;
             }
         }
 
         .form-but{
             margin-top: 70px;
-            margin-left: 20px;
+            
             width: 280px;
         }
 
@@ -1258,4 +1261,146 @@ footer{
         }
      }
 
+
+     .sect2{
+        height: 1839px;
+        .sect2-he{
+            display: flex;
+            margin-left: 20px;
+            h1{
+                font-size: 18px;
+                width: 112px;
+            }
+            
+            button{
+                font-size: 13px;
+                width: 124px;
+                height: 44px;
+                margin-top: 0px;
+            }
+        }
+
+        .car{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            width: 290px;
+            height: 136px;
+            .black{
+                width: 159px;
+                height: 36px;
+            }
+            .w1{
+                margin-left: 15px;
+                width: 112px;
+                height: 36px;
+            }
+            .g1{
+                margin-left: 0px;
+                width: 129px;
+                height: 36px;
+            }
+
+            .w2{
+                margin-left: 15px;
+                width: 143px;
+                height: 36px;
+            }
+
+            .w3{
+                margin-left: 0px;
+                width: 120px;
+                height: 36px;
+            }
+        }
+
+        .katal{
+            display: flex;
+            flex-direction: column;
+            li{
+                display: flex;
+                margin-left: 0px;
+                width: 280px;
+                height: 391px;
+                
+
+                .cen{
+                    display: flex;
+                    flex-direction: column;
+                    padding-left: 35px;
+
+                    button{
+                        width: 220px;
+                        height: 40px;
+                    }
+
+                    p{
+                        padding-left: 45px;
+                        padding-top: 15px;
+                        span{
+                            font-weight: 800;
+                        }
+                    }
+                }
+
+                hr{
+                    display: none;
+                }
+
+                .text-s2{
+                    
+                    padding-top: 15px;
+
+                    img{
+                        padding-left: 0px;
+                    }
+                    p{
+                        font-size: 12px;
+                        height: 20px;
+                    }
+
+                    .pa{
+                        img{
+                            width: 22px;
+                            height: 18px;
+                        }
+                    }
+
+                    padding-left: 35px;
+                }
+
+                h4{
+                    padding-top: 25px;
+                    width: 146px;
+                    height: 20px;
+                    font-size: 16px;
+                }
+
+                img{
+                    width: 204px;
+                    height: 109px;
+                }
+            }
+
+            .vis{
+                display: none;
+            }
+
+        }
+     }
+
+     .te{
+        margin-top: 90px;
+        h4{
+            width: 280px;
+            height: 198px;
+            font-size: 18px;
+        }
+
+        p{
+            width: 280px;
+            height: 120px;
+            font-size: 14px;
+        }
+     }
 }

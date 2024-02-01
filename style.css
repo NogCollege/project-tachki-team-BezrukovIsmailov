@@ -234,7 +234,7 @@ ul {
   width: 124px;
   background-color: #FFFFFF;
   border-radius: 8px;
-  border: solid 4px #1F1F1F;
+  border: solid 2px #1F1F1F;
 }
 .sect2 .car {
   display: flex;
@@ -1042,17 +1042,19 @@ footer .fot .kchay {
     width: 272px;
     height: 27px;
     padding-top: 30px;
+    padding-left: 0px;
   }
   .dop-sect1 .forma {
     padding-top: 20px;
     display: block;
+    padding-left: 0px;
   }
   .dop-sect1 .forma .form {
     margin-top: 20px;
+    margin-left: 0px;
   }
   .dop-sect1 .form-but {
     margin-top: 70px;
-    margin-left: 20px;
     width: 280px;
   }
   .dop-sect1 .text-for {
@@ -1064,5 +1066,123 @@ footer .fot .kchay {
   }
   .dop-sect1 .text-for p {
     padding-top: 15px;
+  }
+  .sect2 {
+    height: 1839px;
+  }
+  .sect2 .sect2-he {
+    display: flex;
+    margin-left: 20px;
+  }
+  .sect2 .sect2-he h1 {
+    font-size: 18px;
+    width: 112px;
+  }
+  .sect2 .sect2-he button {
+    font-size: 13px;
+    width: 124px;
+    height: 44px;
+    margin-top: 0px;
+  }
+  .sect2 .car {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 290px;
+    height: 136px;
+  }
+  .sect2 .car .black {
+    width: 159px;
+    height: 36px;
+  }
+  .sect2 .car .w1 {
+    margin-left: 15px;
+    width: 112px;
+    height: 36px;
+  }
+  .sect2 .car .g1 {
+    margin-left: 0px;
+    width: 129px;
+    height: 36px;
+  }
+  .sect2 .car .w2 {
+    margin-left: 15px;
+    width: 143px;
+    height: 36px;
+  }
+  .sect2 .car .w3 {
+    margin-left: 0px;
+    width: 120px;
+    height: 36px;
+  }
+  .sect2 .katal {
+    display: flex;
+    flex-direction: column;
+  }
+  .sect2 .katal li {
+    display: flex;
+    margin-left: 0px;
+    width: 280px;
+    height: 391px;
+  }
+  .sect2 .katal li .cen {
+    display: flex;
+    flex-direction: column;
+    padding-left: 35px;
+  }
+  .sect2 .katal li .cen button {
+    width: 220px;
+    height: 40px;
+  }
+  .sect2 .katal li .cen p {
+    padding-left: 45px;
+    padding-top: 15px;
+  }
+  .sect2 .katal li .cen p span {
+    font-weight: 800;
+  }
+  .sect2 .katal li hr {
+    display: none;
+  }
+  .sect2 .katal li .text-s2 {
+    padding-top: 15px;
+    padding-left: 35px;
+  }
+  .sect2 .katal li .text-s2 img {
+    padding-left: 0px;
+  }
+  .sect2 .katal li .text-s2 p {
+    font-size: 12px;
+    height: 20px;
+  }
+  .sect2 .katal li .text-s2 .pa img {
+    width: 22px;
+    height: 18px;
+  }
+  .sect2 .katal li h4 {
+    padding-top: 25px;
+    width: 146px;
+    height: 20px;
+    font-size: 16px;
+  }
+  .sect2 .katal li img {
+    width: 204px;
+    height: 109px;
+  }
+  .sect2 .katal .vis {
+    display: none;
+  }
+  .te {
+    margin-top: 90px;
+  }
+  .te h4 {
+    width: 280px;
+    height: 198px;
+    font-size: 18px;
+  }
+  .te p {
+    width: 280px;
+    height: 120px;
+    font-size: 14px;
   }
 }/*# sourceMappingURL=style.css.map */
