@@ -246,11 +246,12 @@ ul{
     .sect2-he{
         display: flex;
         flex-direction: row;
-        margin-left: 280px;
+        
         h1{
             color: #1F1F1F;
             font-family: 'Unbounded';
             font-size: 48px;
+            margin-left: 20px;
         }
 
         button{
