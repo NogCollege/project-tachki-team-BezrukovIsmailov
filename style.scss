@@ -59,7 +59,7 @@ header{
     border-radius: 8px;
     padding: 13px 20px;
     color: white;
-    background-color: black;
+    background-color: transparent;
     border-color: white;
     font-size: 13px;
     font-weight: 700;
@@ -270,6 +270,7 @@ ul{
         padding-bottom: 30px;
         flex-direction: row;
         font-family: 'PP Pangram Sans';
+        margin-left: 20px;
         
 
         img{
@@ -304,17 +305,8 @@ ul{
             margin-left: 30px;
         }
 
-        .gray{
-            display: flex;
+        .white:hover{
             background-color: #EAEAEA;
-            width: 217px;
-            height: 74px;
-            color: #1F1F1F;
-            border-radius: 10px;
-            justify-content: center;
-            align-items: center;
-            font-size: 14px;
-            margin-left: 30px;
         }
 
     }
@@ -876,22 +868,26 @@ ul{
         display: flex;
         justify-content: space-around;
 
+        .photo-s9{
+            img{
+                width: 560px;
+                height: 580px;
+            }
+        }
+
         .text-s9{
             font-size: 28px;
             font-family: 'PP Pangram Sans';
             width: 648px;
            
-
-            img{
-                width: 560px;
-                height: 580px;
-            }
             p{
                 padding-top: 40px;
+                width: 648px;
                 height: 190px;
             }
             
             .dop{
+                width: 648px;
                 padding-top: 30px;
                 font-size: 18px;
                 font-family: 'PP Pangram Sans';
@@ -969,6 +965,7 @@ ul{
             background-color: #1F1F1F;
             border-radius: 10px;
             color: #FFFFFF;
+            font-family: 'PP Pangram Sans';
         }
 
         .galo{
@@ -1065,9 +1062,11 @@ footer{
             .soceti{
                 padding-top: 30px;
                 padding-left: 27vh;
+
                 .p2{
                     padding-left: 7px;
                 }
+
             }
         }
 
@@ -1207,12 +1206,18 @@ footer{
         .menu-l li{
             display: none;
         }
-        h1{
-            font-family: 'Inter';
-            font-size: 20px;
-            width: 98px;
-            height: 48px;
+
+        .logo{
+
+            h1{
+                font-family: 'Inter';
+                font-size: 20px;
+                
+            }
+
         }
+
+ 
 
         .knop{
             display: none;
@@ -1274,6 +1279,7 @@ footer{
 
 
      .sect2{
+        margin-top: 40px;
         height: 1839px;
         .sect2-he{
             display: flex;
@@ -1306,7 +1312,7 @@ footer{
                 width: 112px;
                 height: 36px;
             }
-            .g1{
+            .w4{
                 margin-left: 0px;
                 width: 129px;
                 height: 36px;
@@ -1422,6 +1428,7 @@ footer{
 
 
      .sect3{
+        margin-top: 30px;
         background-image: url(img/mb.png);
         background-repeat: no-repeat;
         background-size: cover;
@@ -1483,6 +1490,7 @@ footer{
      }
 
      .sect4{
+        margin-top: 30px;
         h1{
             margin-left: 15px;
             font-size: 18px;
@@ -1542,4 +1550,478 @@ footer{
         }
 
      }
+
+
+     .sect5{
+        margin-top: 30px;
+        h1{
+            font-size: 18px;
+            width: 200px;
+            height: 54px;
+            margin-left: 15px;
+            text-align: start;
+        }
+
+        .s5{
+            display: flex;
+            flex-direction: column;
+            padding-top: 20px;
+
+            .s5-1{
+                display: flex;
+                flex-direction: column;
+                width: 280px;
+                height: 266px;
+                margin-top: 20px;
+                .s5-th{
+                    padding-top: 15px;
+                }
+
+                .s5-ph{
+                    padding-top: 20px;
+                }
+
+                p{
+                    font-size: 14px;
+                    height: 80px;
+                    width: 215px;
+                    padding-top: 15px;
+                }
+
+                h4{
+                    font-size: 16px;
+                    width: 116px;
+                    height: 20px;
+                    padding-top: 20px;
+                }
+
+                img{
+                    width: 68px;
+                    height: 66px;
+                }
+            }
+        }
+     }
+
+    
+    .sect6{
+        margin-top: 30px;
+        background-image: url(img/fff.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 1048px;
+
+        h1{
+            font-size: 18px;
+            width: 200px;
+            height: 20px;
+            padding-top: 40px;
+            margin-left: 15px;
+        }
+
+        .s6{
+            display: flex;
+            flex-direction: column-reverse;
+            padding-top: 30px;
+
+            .s6-ph{
+                width: 280px;
+                height: 364px;
+                margin-left: 0px;
+
+                img{
+                    width: 280px;
+                    height: 190px;
+                }
+
+                h3{
+                    font-size: 16px;
+                    width: 213px;
+                    height: 40px;
+                }
+
+                p{
+                    width: 220px;
+                    height: 60px;
+                    font-size: 14px;
+                }
+            }
+
+            .s6-tx{
+                margin-top: 30px;
+                .osna{
+                    width: 280px;
+                    height: 286px;
+                    font-size: 18px;
+                }
+
+                .j{
+                    padding-top: 20px;
+                    width: 280px;
+                    height: 100;
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+
+    .sect7{
+        padding-top: 30px;
+        h1{
+            font-size: 18px;
+            width: 180px;
+            height: 27px;
+            margin-left: 15px;
+        }
+
+        .s7{
+            display: flex;
+            flex-direction: column;
+            padding-top: 30px;
+
+            div{
+                margin-top: 20px;
+            }
+
+            img{
+                width: 280px;
+                height: 190px;
+                border-radius: 20px;
+            }
+
+            p{
+                width: 180px;
+                height: 40px;
+                font-size: 16px;
+                padding-top: 10px;
+            }
+        }
+
+    }
+
+    .sect8{
+        padding-top: 30px;
+        h1{
+            width: 250px;
+            height: 81px;
+            font-size: 18px;
+            margin-left: 15px;
+        }
+
+        .prich{
+            display: flex;
+            flex-direction: column;
+
+            li{
+
+                margin-top: 15px;
+                h2{
+                    width: 148px;
+                    height: 20px;
+                    font-size: 16px;
+                }
+
+                p{
+                    width: 173px;
+                    height: 80px;
+                    font-size: 14px;
+                    padding-top: 10px;
+                }
+            }
+        }
+    }
+
+    .sect9{
+        background-image: url(img/ddd.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 1566px;
+        margin-left: 0px;
+        margin-top: 30px;
+        .s9{
+            display: flex;
+            flex-direction: column-reverse;
+
+            .photo-s9{
+                img{
+                    width: 280px;
+                    height: 210px;
+                    
+                }
+            }
+
+            h1{
+                width: 250px;
+                height: 54px;
+                font-size: 18px;
+                margin-left: 5px;
+                padding-top: 20px;
+            }
+
+            .text-s9{
+                p{
+                    width: 280px;
+                    height: 154px;
+                    padding-top: 20px;
+                    font-size: 18px;
+                    margin-left: 5px;
+                    
+                }
+    
+                .dop{
+                    width: 280px;
+                    height: 200px;
+                    padding-top: 20px;
+                    font-size: 14px;
+                    margin-left: 5px;
+                    
+                }
+            }
+
+           
+
+        }
+
+        .s9-2{
+            display: flex;
+            flex-direction: column;
+            .i{
+                width: 280px;
+                height: 210px;
+            }
+    
+            .s9_2{
+                padding-left: 0px;
+                h1{
+                    width: 250px;
+                    height: 54px;
+                    font-size: 18px;
+                    padding-top: 30px;
+                    
+                }
+                
+                .da{
+                    width: 280px;
+                    height: 100px;
+                    font-size: 14px;
+                    padding-top: 25px;
+                }
+
+                p{
+                    width: 280px;
+                    height: 60px;
+                    font-size: 14px;
+                    padding-top: 20px;
+                }
+                hr{
+                    margin-top: 20px;
+                    width: 110%;
+                }
+
+                .sp{
+                    display: flex;
+                    flex-direction: column;
+                    li{
+                        padding-left: 0px;
+                    }
+                    p{
+                        width: 180px;
+                        height: 48px;
+                        font-size: 13px;
+                    }
+                }
+            }
+        }
+    }
+
+    .sect10{
+        margin-left: 0px;
+        width: 320px;
+        height: 347px;
+        .s10{
+            width: 320px;
+            height: 347px;
+            padding-top: 20px;
+            display: flex;
+            justify-content: center;
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
+    }
+
+
+    .sect11{
+        padding-top: 30px;
+
+        .s11{
+            display: flex;
+            flex-direction: column-reverse;
+            
+            .s11-ph{
+                text-align: center;
+            }
+
+            img{
+                width: 144px;
+                height: 225px;
+            }
+
+            .s11-text{
+                padding-left: 0px;
+                h1{
+                    width: 250px;
+                    height: 27px;
+                    font-size: 18px;
+                }
+
+                p{
+                    padding-top: 20px;
+                    width: 280px;
+                    height: 60px;
+                    font-size: 14px;
+                }
+
+                b{
+                    padding-top: 20px;
+                    padding-bottom: 20px;
+                    width: 202px;
+                    height: 24px;
+                    font-size: 18px;
+                }
+
+                .fo{
+                    width: 280px;
+                    height: 76px;
+                    font-size: 16px;
+                    padding-left: 0px;
+                }
+                .fo::placeholder{
+                    padding-left: 20px;
+                }
+
+                button{
+                    width: 280px;
+                    height: 76px;
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+    
+
+
+    footer{
+        margin-left: 0px;
+        height: 1026px;
+        padding-top: 0px;
+        .fot{
+            display: flex;
+            flex-direction: column;
+            padding-top: 0px;
+
+            .fot1{
+                h1{
+                    width: 148px;
+                    height: 54px;
+                    font-size: 28px;
+                    padding-top: 20px;
+                }
+
+                .nom{
+                    display: flex;
+                    flex-direction: column;
+                    padding-top: 30px;
+
+                    h3{
+                        width: 202px;
+                        height: 20px;
+                        font-size: 18px;
+                    }
+
+                    p{
+                        width: 181px;
+                        height: 12px;
+                        font-size: 12px;
+                        padding-top: 5px;
+                    }
+
+                    button{
+                        margin-left: 0px;
+                        width: 280px;
+                        height: 56px;
+                        font-size: 13px;
+                        margin-top: 20px;
+                    }
+                }
+
+                .adress{
+                    width: 229px;
+                    height: 44px;
+                    font-size: 15px;
+                    
+
+                }
+
+                .poch{
+                    padding-left: 0px;
+                    width: 180px;
+                    height: 22px;
+                    font-size: 15px;
+                }
+
+                .soceti{
+                    padding-left: 0px;
+                    padding-top: 20px;
+                }
+            }
+
+            .fot2{
+                padding-top: 20px;
+                ul{
+                    display: flex;
+                    flex-direction: column;
+
+                    li{
+                        h1{
+                            width: 98px;
+                            height: 20px;
+                            font-size: 13px;
+                            padding-bottom: 15px;
+                        }
+
+                        p{
+                            width: 130px;
+                            height: 20px;
+                            font-size: 16px;
+                            padding-top: 10px;
+                        }
+                    }
+
+                    .g2{
+                        padding-left: 0px;
+                        padding-top: 15px;
+                    }
+                }
+
+                hr{
+                    margin-top: 30px;
+                }
+
+                .kchay{
+                    display: flex;
+                    flex-direction: column;
+                    padding-top: 10px;
+
+                    p{
+                        width: 202px;
+                        height: 22px;
+                        font-size: 13px;
+                        .pl{
+                            padding-top: 5px;
+                        }
+                    }
+                }
+            }
+        }
+    }
 }
