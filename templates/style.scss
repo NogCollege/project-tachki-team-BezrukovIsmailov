@@ -88,7 +88,7 @@ header{
     }
 }
 
-.sect1{
+.promo{
     color: white;
     background-image: url(img/бг.png);
     background-size: cover;
@@ -155,7 +155,7 @@ header{
     }
 }
 
-.dop-sect1{
+.dop-promo{
     position: absolute;
     z-index: 1;
     background-color: white;
@@ -240,7 +240,7 @@ ul{
 }
 
 
-.sect2{
+.fleet{
     margin-top: 12%;
 
     .sect2-he{
@@ -416,7 +416,7 @@ ul{
 }
 
 
-.te{
+.dop-fleet{
     font-family: 'PP Pangram Sans';
     padding-top: 90px;
     h4{
@@ -437,7 +437,7 @@ ul{
 }
 
 
-.sect3{
+.Rentauto{
     margin-top: 80px;
     background-image: url(img/бг\ \(1\).png);
     width: 100%;
@@ -537,7 +537,7 @@ ul{
 }
 
 
-.sect4{
+.Rentprem{
     margin-top: 90px;
     h1{
         font-size: 48px;
@@ -604,7 +604,7 @@ ul{
     }
 }
 
-.sect5{
+.steps  {
     margin-top: 80px;
 
     h1{
@@ -657,7 +657,7 @@ ul{
     }
 }
 
-.sect6{
+.promotions{
     margin-top: 60px;
     background-image: url(img/бг\ \(2\).png);
     height: 820px;
@@ -717,7 +717,7 @@ ul{
     }   
 }
 
-.sect7{
+.services{
     padding-top: 90px;
 
     h1{
@@ -749,7 +749,7 @@ ul{
 
 
 
-.sect8{
+.reasons{
     padding-top: 90px;
 
     h1{
@@ -786,7 +786,7 @@ ul{
 
 
 
-.sect9{
+.dubmosc{
     margin-left: 30px;
     margin-top: 90px;
     background-image: url(img/bg\ \(8\).png);
@@ -902,7 +902,7 @@ ul{
 
 
 
-.sect10{
+.Partners{
     width: 1860px;
     margin-left: 30px;
     background-color: white;
@@ -920,7 +920,7 @@ ul{
 
 
 
-.sect11{
+.questions{
     padding-top: 90px;
 
     .s11{
@@ -1122,7 +1122,7 @@ footer{
 
 @media (min-width: 320px) and (max-width: 320px){
 
-    .sect1{
+    .promo{
         background-image: url(img/бг\ \(3\).png);
         background-size: cover;
         background-repeat: no-repeat;
@@ -1234,7 +1234,7 @@ footer{
      }
 
 
-     .dop-sect1{
+     .dop-promo{
         display: block;
         position: relative;
         left: 0px;
@@ -1279,7 +1279,7 @@ footer{
      }
 
 
-     .sect2{
+     .fleet{
         margin-top: 40px;
         height: 1839px;
         .sect2-he{
@@ -1409,7 +1409,7 @@ footer{
         }
      }
 
-     .te{
+     .dop-fleet{
         padding-top: 120px;
         h4{
             width: 280px;
@@ -1428,7 +1428,7 @@ footer{
 
 
 
-     .sect3{
+     .Rentauto{
         margin-top: 30px;
         background-image: url(img/mb.png);
         background-repeat: no-repeat;
@@ -1490,7 +1490,7 @@ footer{
         }
      }
 
-     .sect4{
+     .Rentprem{
         margin-top: 30px;
         h1{
             margin-left: 15px;
@@ -1553,7 +1553,7 @@ footer{
      }
 
 
-     .sect5{
+     .steps{
         margin-top: 30px;
         h1{
             font-size: 18px;
@@ -1605,7 +1605,7 @@ footer{
      }
 
     
-    .sect6{
+    .promotions{
         margin-top: 30px;
         background-image: url(img/fff.png);
         background-repeat: no-repeat;
@@ -1666,7 +1666,7 @@ footer{
         }
     }
 
-    .sect7{
+    .services{
         padding-top: 30px;
         h1{
             font-size: 18px;
@@ -1700,7 +1700,7 @@ footer{
 
     }
 
-    .sect8{
+    .reasons{
         padding-top: 30px;
         h1{
             width: 250px;
@@ -1732,7 +1732,7 @@ footer{
         }
     }
 
-    .sect9{
+    .dubmosc{
         background-image: url(img/ddd.png);
         background-repeat: no-repeat;
         background-size: cover;
@@ -1835,7 +1835,7 @@ footer{
         }
     }
 
-    .sect10{
+    .Partners{
         margin-left: 0px;
         width: 320px;
         height: 347px;
@@ -1851,7 +1851,7 @@ footer{
     }
 
 
-    .sect11{
+    .questions{
         padding-top: 30px;
 
         .s11{
