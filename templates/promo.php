@@ -1,12 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <section class="promo ">
+<section class="promo ">
             <div class="sect1-text container">
                 <h1>Аренда авто<br> в Ногинске</h1>
                 <p>Прокат или аренда автомобиля с водителем и без</p>
@@ -41,5 +33,3 @@
                 </ul>
             </div>
     </section>
-</body>
-</html>

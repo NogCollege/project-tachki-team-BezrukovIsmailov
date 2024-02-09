@@ -19,4 +19,4 @@
             </div>
             <button class="form-but">Найти варианты</button>
         </div>
-    </div>
+</div>
