@@ -1,8 +1,8 @@
 <?php 
-    require_once("../controllers/connect.php");
+    require_once ("../controllers/connect.php");
 
     $link = mysqli_query($link, "SELECT*FROM catologg WHERE id>0");
-
+    
     $query = "SELECT * FROM catalogg";
 
     $result = mysqli_query($link, $query) or die(mysqli_error($link));
@@ -13,7 +13,7 @@
 
     foreach ($data as $elem){
         $result .= '<div class = "katalog container">';
-        
+
 
 
         $result .= '</div>';

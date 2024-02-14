@@ -10,9 +10,7 @@
 </head>
 <body>
     <?php require "templates\header.php" ?>
-
     <?php require "templates\promo.php" ?>
-    
     <?php require "templates\leet.php"?>
     <?php require "templates\dop-fleet.php"?>
     <?php require "templates\Rentauto.php"?>
