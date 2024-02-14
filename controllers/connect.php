@@ -6,5 +6,6 @@
 
     $db_name = "site";
 
-    $link = mysqli_connect($host, $user, $password, $db_name)
+    $link = mysqli_connect($host, $user, $password, $db_name);
+
 ?>

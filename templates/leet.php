@@ -7,13 +7,19 @@
 
     $result = mysqli_query($link, $query) or die(mysqli_error($link));
 
-    for ($data = []; $row = mysqli_fetch_assoc($result); $data [] = $row)
+    for ($data = []; $row = mysqli_fetch_assoc($result); $data [] = $row);
 
     $result = '';
 
-    foreach ($data as $elem) {
+    foreach ($data as $elem){
+        $result .= '<div class = "katalog container">';
         
+
+
+        $result .= '</div>';
     }
+
+
 ?>
 
 
