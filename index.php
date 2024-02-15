@@ -1,13 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <?php
-        require "controllers\head.php";
-     ?>
-</head>
+
+<?php
+    require "controllers\head.php";
+?>
 <body>
     <?php require "templates\header.php" ?>
     <?php require "templates\promo.php" ?>

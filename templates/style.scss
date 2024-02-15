@@ -315,12 +315,15 @@ ul{
     .katal{
         display: flex;
         flex-direction: row;
+        flex-wrap: wrap;
         column-count: 2;
+        
+
 
 
         li{
             display: flex;
-            width: 424px;
+            width: 419px;
             height: 483px;
             background-color: #FFFFFF;
             flex-direction: column;

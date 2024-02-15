@@ -1,26 +1,4 @@
-<?php 
-    require_once ("../controllers/connect.php");
 
-    $link = mysqli_query($link, "SELECT*FROM catologg WHERE id>0");
-    
-    $query = "SELECT * FROM catalogg";
-
-    $result = mysqli_query($link, $query) or die(mysqli_error($link));
-
-    for ($data = []; $row = mysqli_fetch_assoc($result); $data [] = $row);
-
-    $result = '';
-
-    foreach ($data as $elem){
-        $result .= '<div class = "katalog container">';
-
-
-
-        $result .= '</div>';
-    }
-
-
-?>
 
 
 <section class="fleet">
@@ -37,24 +15,38 @@
                 <li class="white w3"><img src="templates/img/Vector (7).png" alt="">Комфорт</li>
             </ul>
         </div>
-        <div class="katalog container">
-            <ul class="katal">
-                <div class="first">
-                    <li class="vis">
-                        <div class="img-kat">
-                            <img src="templates/img/image 22 (4).png" alt="">
-                        </div>
-                        <h4>BMW X2, 2021</h4>
-                        <div class="text-s2">
-                            <p> <img src="templates/img/Vector (8).png" alt="">2,3 л/бензин</p>
-                            <p class="pa"> <img src="templates/img/Vector (9).png" alt="">317 л.с.</p>
-                        </div>
-                        <hr size="1px">
-                        <div class="cen">
-                            <button>Забронировать</button><p>от <span>7150</span>руб/сут.</p>
-                        </div>
-                    </li>
-                </div>
-            </ul>
-        </div>
+        <?php 
+            require_once ("controllers/connect.php");
+        
+            $query = "SELECT * FROM catalogg";
+
+            $result = mysqli_query($link, $query) or die(mysqli_error($link));
+
+            for ($data = []; $row = mysqli_fetch_assoc($result); $data[] = $row);
+            
+            echo '<div class = "katalog container">
+            <ul class="katal">';
+            foreach ($data as $elem){
+                $result = '';
+                $result .= '
+                <li class="vis">
+                <div class="img-kat">
+                <img src="templates/img/image 22 (4).png" alt="">
+                </div>';
+                $result .= ' <h4>'. $elem['fullname'] . ', '. $elem['god'] . '</h4>';
+                $result .= '<div class="text-s2">
+                    <p> <img src="templates/img/Vector (8).png" alt="">'. $elem['volume'] . ',' . $elem['typemot'] . '</p>
+                    <p class="pa"> <img src="templates/img/Vector (9).png" alt="">'. $elem['loshad'] .'</p>
+                </div>';
+                $result .= '<hr size="1px">';
+                $result .= '<div class="cen">
+                    <button>Забронировать</button><p>от <span>'.$elem['mid'].'</span>руб/сут.</p>
+                </div>';
+                $result .= '</li>';
+
+                echo $result;
+            }
+            echo '</ul></div>';
+
+        ?>
 </section>
