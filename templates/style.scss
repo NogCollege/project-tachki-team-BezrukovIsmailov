@@ -306,6 +306,11 @@ ul{
             margin-left: 30px;
         }
 
+        .white:active{
+            background-color: #1F1F1F;
+            color: #FFFFFF;
+        }
+
         .white:hover{
             background-color: #EAEAEA;
         }
@@ -335,7 +340,8 @@ ul{
 
             img{
                 width: 286px;
-                height: 153px;
+                height: 200px;
+                object-fit: cover;
                 
             }
 

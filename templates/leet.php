@@ -1,5 +1,43 @@
+<script> 
+    let buttons = document.querySelectorAll('.button-cat')
+
+    let category = new Map([
+        ['suv', document.querySelectorAll('.cat-Внедорожники')],
+        ['business', document.querySelectorAll('.cat-Бизнес')],
+        ['sport', document.querySelectorAll('.cat-Спорткар')],
+        ['premium', document.querySelectorAll('.cat-Премиум')],
+        ['comfort', document.querySelectorAll('.cat-Комфорт')]
+    ]);
+
+    
+    let allCards = document.querySelectorAll('.catalog-list-item')
+
+    for (let button of buttons) {
+        button.addEventListener("click", function() {
+            if (!button.classList.contains("button-active")) {
+                console.log("Нажатие на неактивную кнопку")
+            buttons.forEach((button) => {
+                button.classList.remove("button-active") // убираем класс у всех кнопок
+                this.classList.add("button-active") // добавляем класс к нажатой кнопке
+            })
+            DisplayCards(this.dataset.category)
+            } else {
+                console.log("Нажатие на активную кнопку")
+            }
+        })
+    }
 
 
+    function DisplayCards(cat) {
+        allCards.forEach((card) => {
+            card.style.display = 'none'
+        })
+        category.get(cat).forEach((card) => {
+            card.style.display = 'block'
+        })
+    }
+    
+</script>
 
 <section class="fleet">
         <div class="sect2-he container">
@@ -8,11 +46,26 @@
         </div>
         <div class="sect2-car container">
             <ul class="car container">
-                <li class="black"><img src="templates/img/Group 47.png" alt="">Внедорожники</li>
-                <li class="white w1"><img src="templates/img/Vector (5).png" alt="">Бизнес</li>
-                <li class="white w4"><img src="templates/img/Group 48.png" alt="">Спорткар</li>
-                <li class="white w2"><img src="templates/img/Vector (6).png" alt="">Премиум</li>
-                <li class="white w3"><img src="templates/img/Vector (7).png" alt="">Комфорт</li>
+                <li> 
+                    <button class="button-cat black" data-category="Внедорожники"><img src="templates/img/Group 47.png" alt="">Внедорожники</button>
+
+                </li>
+                <li>
+                    <button class="button-cat white w1" data-category="Бизнес"><img src="templates/img/Vector (5).png" alt="">Бизнес</button>
+
+                </li>
+                <li>
+                    <button class="button-cat white w4" data-category="Спорткар"><img src="templates/img/Group 48.png" alt="">Спорткар</button>
+
+                </li>
+                <li>
+                    <button class="button-cat white w2" data-category="Премиум"><img src="templates/img/Vector (6).png" alt="">Премиум</button>
+
+                </li>
+                <li>
+                    <button class="button-cat white w3" data-category="Комфорт"><img src="templates/img/Vector (7).png" alt="">Комфорт</button>
+
+                </li>
             </ul>
         </div>
         <?php 
@@ -29,9 +82,9 @@
             foreach ($data as $elem){
                 $result = '';
                 $result .= '
-                <li class="vis">
+                <li class="vis Внедорожник Бизнес Спорткар Премиум Комфорт">
                 <div class="img-kat">
-                <img src="templates/img/image 22 (4).png" alt="">
+                <img src="templates/img/photots/'. $elem['id'].'-'.$elem['namee']   . '/main.jpg" alt="">
                 </div>';
                 $result .= ' <h4>'. $elem['fullname'] . ', '. $elem['god'] . '</h4>';
                 $result .= '<div class="text-s2">

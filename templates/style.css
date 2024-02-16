@@ -270,6 +270,10 @@ ul {
   font-size: 14px;
   margin-left: 30px;
 }
+.fleet .car .white:active {
+  background-color: #1F1F1F;
+  color: #FFFFFF;
+}
 .fleet .car .white:hover {
   background-color: #EAEAEA;
 }
@@ -293,7 +297,9 @@ ul {
 }
 .fleet .katal li img {
   width: 286px;
-  height: 153px;
+  height: 200px;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 .fleet .katal li h4 {
   font-size: 20px;
