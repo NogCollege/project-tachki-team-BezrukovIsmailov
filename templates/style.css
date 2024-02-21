@@ -247,17 +247,6 @@ ul {
 .fleet .car img {
   margin-right: 15px;
 }
-.fleet .car .black {
-  display: flex;
-  background-color: #1F1F1F;
-  width: 217px;
-  height: 74px;
-  color: #FFFFFF;
-  border-radius: 10px;
-  justify-content: center;
-  align-items: center;
-  font-size: 14px;
-}
 .fleet .car .white {
   display: flex;
   background-color: #FFFFFF;
@@ -270,12 +259,16 @@ ul {
   font-size: 14px;
   margin-left: 30px;
 }
-.fleet .car .white:active {
-  background-color: #1F1F1F;
-  color: #FFFFFF;
+.fleet .car .butact {
+  background: #1f1f1f;
+  color: #fff;
+  border: 1px solid #000;
 }
-.fleet .car .white:hover {
-  background-color: #EAEAEA;
+.fleet .car .butact img {
+  filter: invert(100%);
+}
+.fleet .car .butact:hover {
+  background: #565656;
 }
 .fleet .katal {
   display: flex;
