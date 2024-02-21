@@ -54,7 +54,7 @@
                 </div>';
                 $result .= '<hr size="1px">';
                 $result .= '<div class="cen">
-                    <button>Забронировать</button><p>от <span>'.$elem['mid'].'</span>руб/сут.</p>
+                    <a href="fulcat.php?id='.$elem['id'].'"><button>Забронировать</button></a><p>от <span>'.$elem['mid'].'</span>руб/сут.</p>
                 </div>';
                 $result .= '</li>';
 
