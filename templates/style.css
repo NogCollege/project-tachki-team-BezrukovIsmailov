@@ -167,6 +167,7 @@ header {
 .dop-promo .text-for {
   padding-left: 70px;
   display: grid;
+  margin-right: 0px;
   grid-template-columns: repeat(3, 1fr);
   justify-content: center;
   align-items: end;
@@ -531,11 +532,12 @@ ul {
 .page-title {
   text-align: start;
   font-family: "PP Pangram Sans";
-  padding-bottom: 20px;
+  padding-bottom: 10px;
+  font-size: 48px;
 }
 
 .slid-info {
-  padding-top: 200px;
+  padding-top: 100px;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -553,7 +555,7 @@ ul {
   background-color: #FFFFFF;
   color: #1D1D1D;
   width: 592px;
-  height: 502px;
+  height: 440px;
   border-radius: 20px;
 }
 .slid-info .stoim h1 {
@@ -571,9 +573,24 @@ ul {
   border: solid 0px;
   background: linear-gradient(60deg, #9f7437, #e3d293 70.71%);
   color: #FFFFFF;
-  margin-top: 28px;
+  margin-top: 35px;
   font-family: "PP Pangram Sans";
   font-size: 18px;
+  margin-left: 40px;
+}
+.slid-info .stoim .inf {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-top: 50px;
+  font-family: "PP Pangram Sans";
+}
+.slid-info .stoim .inf img {
+  padding-right: 10px;
+}
+.slid-info .stoim .benz {
+  width: 25px;
+  height: 18px;
 }
 .slid-info .stoim .cenaa {
   font-family: "PP Pangram Sans";
@@ -582,8 +599,9 @@ ul {
   padding-left: 40px;
 }
 .slid-info .ceninf {
-  font-size: 24px;
+  font-size: 36px;
   font-family: "PP Pangram Sans";
+  padding-bottom: 40px;
   background: linear-gradient(60deg, #9f7437, #e3d293 70.71%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -602,8 +620,8 @@ ul {
 
 .slider-container {
   position: relative;
-  width: 600px;
-  height: 400px;
+  width: 642px;
+  height: 500px;
   margin: 0 auto;
   overflow: hidden;
 }
