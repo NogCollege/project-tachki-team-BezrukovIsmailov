@@ -13,6 +13,7 @@
         <th>mid</th>
         <th>min</th>
         <th>fullopes</th>
+        <th>photos</th>
         <th>delete</th>
     </tr>
 
@@ -75,6 +76,7 @@
         $result .='<td>' .$elem['mid']. '</td';
         $result .='<td>' .$elem['min']. '</td';
         $result .='<td>' .$elem['fullopes']. '</td';
+        $result .='<td><a href= "controllers/upload-photos.php">Фотографии</a></td>';
         $result .= '<td><a href="?del='.$elem['id'].'">удалить</a></td>';
 
         $result .='</tr>';
@@ -96,7 +98,8 @@
     <input name="mid">
     <input name="min">
     <input name="fullopes">
-    <input type="submit" value="добавить работника">
+    <input type="submit" value="добавить авто">
+
     
 
 </form>

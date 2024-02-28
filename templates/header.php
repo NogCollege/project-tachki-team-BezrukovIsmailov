@@ -23,7 +23,7 @@
                 <li><button class="knop">Заказать звонок</button></li>
               </div>
               <div class="prof">
-                <li><img src="templates/img/Group 71.png" alt=""></li>
+                <li><a href="admin.php"><img src="templates/img/Group 71.png" alt=""></a></li>
                 <li><img src="templates/img/Group 72.png" alt=""></li>
               </div>
             </ul>
