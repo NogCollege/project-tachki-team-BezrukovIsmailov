@@ -20,7 +20,7 @@
         if (is_file( $file_path) && in_array(pathinfo($file_path,
         PATHINFO_EXTENSION), ['jpg', 'jpeg', 'png', 'gif'])) {
             echo '<img src="' . $file_path . '">';
-            echo '<a href="?del='. $file_path .'">Удалить фото</a>';
+            echo '<a href="?id='.$_GET['id'].'&xdel='. $file_path .'">Удалить фото</a>';
            
         }
     

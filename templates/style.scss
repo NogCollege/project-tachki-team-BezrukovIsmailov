@@ -180,16 +180,17 @@ header{
     .text-for{
         padding-left: 70px;
         display: grid;
-        margin-right: 0px;
         grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+        margin: 0px 0px;
         justify-content: center;
         align-items: end;
         width: 380px;
         height: 54px;
-        p{
-            font-size: 14px;
-            font-family: 'PP Pangram Sans';
-        }
+        font-size: 14px;
+        font-family: 'PP Pangram Sans';
     }
 
     h2{
@@ -1261,6 +1262,13 @@ footer{
     }
 }
 
+.adminka{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+}
+
+
 
 @media (min-width: 320px) and (max-width: 320px){
 
@@ -1423,7 +1431,7 @@ footer{
 
      .fleet{
         margin-top: 40px;
-        height: 1839px;
+        
         .sect2-he{
             display: flex;
             margin-left: 20px;
@@ -1446,15 +1454,19 @@ footer{
             flex-wrap: wrap;
             width: 290px;
             height: 136px;
-            .black{
-                width: 159px;
-                height: 36px;
-            }
+
             .w1{
                 margin-left: 15px;
                 width: 112px;
                 height: 36px;
             }
+
+            .w5{
+                margin-left: 0px;
+                width: 159px;
+                height: 36px;
+            }
+
             .w4{
                 margin-left: 0px;
                 width: 129px;

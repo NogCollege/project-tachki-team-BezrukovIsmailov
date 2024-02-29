@@ -167,14 +167,15 @@ header {
 .dop-promo .text-for {
   padding-left: 70px;
   display: grid;
-  margin-right: 0px;
   grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  margin: 0px 0px;
   justify-content: center;
   align-items: end;
   width: 380px;
   height: 54px;
-}
-.dop-promo .text-for p {
   font-size: 14px;
   font-family: "PP Pangram Sans";
 }
@@ -1085,6 +1086,12 @@ footer .fot .kchay {
   color: #7E7E7E;
 }
 
+.adminka {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+}
+
 @media (min-width: 320px) and (max-width: 320px) {
   .promo {
     background-image: url(img/бг\ \(3\).png);
@@ -1205,7 +1212,6 @@ footer .fot .kchay {
   }
   .fleet {
     margin-top: 40px;
-    height: 1839px;
   }
   .fleet .sect2-he {
     display: flex;
@@ -1228,13 +1234,14 @@ footer .fot .kchay {
     width: 290px;
     height: 136px;
   }
-  .fleet .car .black {
-    width: 159px;
-    height: 36px;
-  }
   .fleet .car .w1 {
     margin-left: 15px;
     width: 112px;
+    height: 36px;
+  }
+  .fleet .car .w5 {
+    margin-left: 0px;
+    width: 159px;
     height: 36px;
   }
   .fleet .car .w4 {

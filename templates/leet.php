@@ -8,7 +8,7 @@
         <div class="sect2-car container">
             <ul class="car container">
                 <li> 
-                    <button class="button-cat white" data-category="suv"><img src="templates/img/Vector (10).png" alt="">Внедорожники</button>
+                    <button class="button-cat white w5" data-category="suv"><img src="templates/img/Vector (10).png" alt="">Внедорожники</button>
 
                 </li>
                 <li>

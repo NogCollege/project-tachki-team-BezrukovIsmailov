@@ -20,6 +20,7 @@
 
 <? 
     require_once('controllers/connect.php');
+    require_once('controllers/head.php');
 
     if(!empty($_POST)){
         $namee = $_POST['namee'];
@@ -85,21 +86,19 @@
     echo '</table>';
 ?>
 
-<form action="" method="POST">
-    <input name="namee" >
-    <input name="city">
-    <input name="cateauto">
-    <input name="fullname">
-    <input name="god">
-    <input name="typemot">
-    <input name="volume">
-    <input name="loshad">
-    <input name="max">
-    <input name="mid">
-    <input name="min">
-    <input name="fullopes">
+<form class="adminka" action="" method="POST">
+    <input name="namee" placeholder="name">
+    <input name="city" placeholder="city">
+    <input name="cateauto" placeholder="cateauto">
+    <input name="fullname" placeholder="fullname">
+    <input name="god" placeholder="god">
+    <input name="typemot" placeholder="typemot">
+    <input name="volume" placeholder= "volume">
+    <input name="loshad" placeholder= "loshad">
+    <input name="max" placeholder="max">
+    <input name="mid" placeholder= "mid">
+    <input name="min" placeholder= "min">
+    <input name="fullopes" placeholder="fullopes">
     <input type="submit" value="добавить авто">
-
-    
 
 </form>
