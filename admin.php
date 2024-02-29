@@ -76,7 +76,7 @@
         $result .='<td>' .$elem['mid']. '</td';
         $result .='<td>' .$elem['min']. '</td';
         $result .='<td>' .$elem['fullopes']. '</td';
-        $result .='<td><a href= "controllers/upload-photos.php">Фотографии</a></td>';
+        $result .='<td><a href= "upload-photos.php?id='. $elem['id'].'">Фотографии</a></td>';
         $result .= '<td><a href="?del='.$elem['id'].'">удалить</a></td>';
 
         $result .='</tr>';

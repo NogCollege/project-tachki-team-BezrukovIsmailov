@@ -1,11 +1,33 @@
 <?php
-
+    if(isset($_GET['del'])){
+        $del = $_GET['del'];
+        unlink($del);
+    }
+    
+        
+    
     require_once('controllers/connect.php');
-    $id = $_GET['id'];
-    $query = "SELECT * FROM catalogg WHERE id='$id'";
+    $query = "SELECT * FROM catalogg WHERE id=".$_GET['id'];
     $result = mysqli_query($link, $query) or die(mysqli_error($link));
     $data = mysqli_fetch_assoc($result);
-    $uploadDir = 'templates/img/photos/'. $data['id'] . '-' . $data['namee'] .'/';
+    // var_dump($data);
+    $dir = 'templates/img/photots/' . $data['id'] . '-' . $data['namee']; // Укажите путь к папке с
+    $files = scandir($dir); // Получаем список файлов в папке
+    // var_dump($files);
+    foreach ($files as $file) {
+        $file_path = $dir . '/' . $file;
+
+        if (is_file( $file_path) && in_array(pathinfo($file_path,
+        PATHINFO_EXTENSION), ['jpg', 'jpeg', 'png', 'gif'])) {
+            echo '<img src="' . $file_path . '">';
+            echo '<a href="?del='. $file_path .'">Удалить фото</a>';
+           
+        }
+    
+    }
+
+
+    $uploadDir = 'templates/img/photots/'.$data['id'] .'-'.$data['namee'] .'/';
     var_dump($uploadDir);
         if ($_FILES) {
             $files = array_filter($_FILES['upload']['name']);
