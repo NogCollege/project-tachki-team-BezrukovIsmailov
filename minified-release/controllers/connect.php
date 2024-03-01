@@ -1,0 +1,1 @@
+<?php $host="localhost"; $user="w911405k_sait"; $password="f123456G"; $db_name="sait"; $link=mysqli_connect($host, $user, $password, $db_name); ?>
